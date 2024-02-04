@@ -31,3 +31,7 @@
     width: 700px;
     text-align: center;
 }
+
+body {
+    background-image: url(images/vert.jpg);
+  }
