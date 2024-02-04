@@ -35,3 +35,25 @@
 body {
     background-image: url(images/vert.jpg);
   }
+  header {
+    background-color: white;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto; 
+    color: black;
+}
+
+.search-bar,
+.login-bar,
+.home-button {
+    color: black;
+    margin-left: 10px; 
+}
