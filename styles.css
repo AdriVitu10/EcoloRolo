@@ -2,11 +2,32 @@
     text-align: center;
 }
 
-.intro {
-    column-span: 2;
+.main-grid {
+    display: grid;
+    justify-content: center;
 }
 
-.flex-container {
-   display : flex;
-   flex-wrap: wrap;
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7px;
+}
+
+.img {
+    width: 600px;
+    height: 450px;
+}
+.grid-item1 {
+    grid-column: span 2;
+    border: 1px solid grey;
+    padding: 20px;
+    width: 700px;
+    text-align: center;
+}
+.grid-item2 {
+    border: 1px solid grey;
+    padding: 20px;
+    width: 700px;
+    text-align: center;
 }
